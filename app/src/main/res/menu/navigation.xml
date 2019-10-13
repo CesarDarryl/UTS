@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_food"
+        android:title="Permen"
+        android:icon="@drawable/permen" />
+    <item android:id="@+id/action_movie"
+        android:title="Snack"
+        android:icon="@drawable/snack" />
+    <item android:id="@+id/action_discount"
+        android:title="Minuman"
+        android:icon="@drawable/minuman" />
+</menu>
