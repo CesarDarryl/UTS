@@ -5,14 +5,14 @@
     <string name="skip">SKIP</string>
     <string name="start">GOT IT</string>
 
-    <string name="slide_1_title">Hello Food!</string>
-    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+    <string name="slide_1_title">Hello Kakak!</string>
+    <string name="slide_1_desc">Ayo Kakak yang ganteng dan cantik, merapat makan permen biar makin manis..</string>
 
-    <string name="slide_2_title">Movie Tickets</string>
-    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+    <string name="slide_2_title">Drink</string>
+    <string name="slide_2_desc">Suhu di sekeliling lagi panas, monggo ngeES dulu..</string>
 
-    <string name="slide_3_title">Great Discounts</string>
-    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+    <string name="slide_3_title">Biar Kenyang</string>
+    <string name="slide_3_desc">UTS, bikin laporan skripsi beratnya. Makan dulu kuy..</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hi yang demen ngemil</string>
 </resources>
