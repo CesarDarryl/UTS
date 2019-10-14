@@ -53,9 +53,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             case R.id.snack:
                 fragment = new SnackFragment();
                 break;
-            case R.id.minuman:
-                fragment = new MinumanFragment();
-                break;
         }
         return loadFragment(fragment);
     }
