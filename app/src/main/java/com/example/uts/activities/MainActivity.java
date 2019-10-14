@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.uts.R;
-import com.example.uts.fragments.MinumanFragment;
 import com.example.uts.fragments.PermenFragment;
 import com.example.uts.fragments.SnackFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;

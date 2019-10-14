@@ -11,8 +11,6 @@
     <string name="slide_2_title">Drink</string>
     <string name="slide_2_desc">Suhu di sekeliling lagi panas, monggo ngeES dulu..</string>
 
-    <string name="slide_3_title">Biar Kenyang</string>
-    <string name="slide_3_desc">UTS, bikin laporan skripsi beratnya. Makan dulu kuy..</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hi yang demen ngemil</string>
 </resources>
