@@ -4,6 +4,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.InformasiActivity">
+    tools:context=".activities.InformasiActivity"
+    android:background="@drawable/makanpermenkaret">
 
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:background="#C4585858"
+        android:text="Informasi"
+        android:textColor="#FFFAFA"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="171dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="40dp"
+        android:background="#D8F2FF2D"
+        android:text="Permen Karet"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="341dp"
+        android:layout_height="173dp"
+        android:background="#E133FCE3"
+        android:text="Manfaat Permen Karet adalah menyegarkan bau mulut, membantu memproduksi air liur, membantu menurunkan berat badan dan membantu tidak mengeluarkan air mata pada saat mengiris bawang"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="122dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="52dp"
+        android:background="#D2FF1B85"
+        android:text="Gummy"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="352dp"
+        android:layout_height="210dp"
+        android:background="#DA8EFF2F"
+        android:text='Fakta Unik Gummy adalah Nama "Gummy" berasal dari bahan pengental, gummy memiliki bentuk selain beruang adalah cacing, hati, buah ceri dll, Gummy dicetak dengan cetakan khusu dari seniman, variasi gummy terdiri multivitamin dan xylitol'
+        android:textColor="#000000"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
 </androidx.constraintlayout.widget.ConstraintLayout>
