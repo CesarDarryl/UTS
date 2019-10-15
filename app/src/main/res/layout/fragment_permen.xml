@@ -40,7 +40,7 @@
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="match_parent"
-            android:layout_height="166dp"
+            android:layout_height="153dp"
             android:src="@drawable/candylollipop" />
 
         <TextView
@@ -79,7 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.81" />
+        app:layout_constraintGuide_percent="0.79" />
 
     <LinearLayout
         android:id="@+id/CandyBar"
@@ -96,13 +96,13 @@
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
-            android:layout_height="174dp"
+            android:layout_height="167dp"
             android:src="@drawable/candybar" />
 
         <TextView
             android:id="@+id/textView9"
             android:layout_width="match_parent"
-            android:layout_height="54dp"
+            android:layout_height="wrap_content"
             android:text="Candy Bar"
             android:textAlignment="center"
             android:textSize="31sp" />
@@ -123,8 +123,8 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="match_parent"
-            android:layout_height="170dp"
+            android:layout_width="192dp"
+            android:layout_height="155dp"
             android:src="@drawable/candycorn" />
 
         <TextView
@@ -151,13 +151,13 @@
         <ImageView
             android:id="@+id/imageView5"
             android:layout_width="match_parent"
-            android:layout_height="177dp"
+            android:layout_height="165dp"
             android:src="@drawable/candycane" />
 
         <TextView
             android:id="@+id/textView11"
             android:layout_width="match_parent"
-            android:layout_height="49dp"
+            android:layout_height="48dp"
             android:text="Candy Cane"
             android:textAlignment="center"
             android:textSize="31sp" />

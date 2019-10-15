@@ -36,21 +36,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.21" />
+        app:layout_constraintGuide_percent="0.18" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.48" />
+        app:layout_constraintGuide_percent="0.44" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="568dp" />
+        app:layout_constraintGuide_percent="0.73" />
 
     <LinearLayout
         android:id="@+id/mieLidi"
@@ -76,7 +76,7 @@
         <TextView
             android:id="@+id/textView13"
             android:layout_width="match_parent"
-            android:layout_height="67dp"
+            android:layout_height="56dp"
             android:text="Mie Lidi"
             android:textAlignment="center"
             android:textSize="31sp"
@@ -108,7 +108,7 @@
         <TextView
             android:id="@+id/textView14"
             android:layout_width="match_parent"
-            android:layout_height="71dp"
+            android:layout_height="58dp"
             android:text="Pringles"
             android:textAlignment="center"
             android:textSize="31sp"
@@ -140,7 +140,7 @@
         <TextView
             android:id="@+id/textView15"
             android:layout_width="match_parent"
-            android:layout_height="62dp"
+            android:layout_height="43dp"
             android:text="Astor"
             android:textAlignment="center"
             android:textSize="31sp"
@@ -172,7 +172,7 @@
         <TextView
             android:id="@+id/textView16"
             android:layout_width="match_parent"
-            android:layout_height="65dp"
+            android:layout_height="43dp"
             android:layout_marginBottom="731dp"
             android:text="Kacang"
             android:textAlignment="center"
