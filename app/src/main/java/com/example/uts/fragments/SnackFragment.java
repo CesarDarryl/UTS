@@ -1,6 +1,7 @@
 package com.example.uts.fragments;
 
 
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -8,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.example.uts.R;
 
@@ -19,12 +21,10 @@ import com.example.uts.R;
 public class SnackFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+    private OnFragmentInteractionListener mListener;
 
     // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+
 
 
     public SnackFragment() {
@@ -43,8 +43,7 @@ public class SnackFragment extends Fragment {
     public static SnackFragment newInstance(String param1, String param2) {
         SnackFragment fragment = new SnackFragment();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
+
         fragment.setArguments(args);
         return fragment;
     }
@@ -53,16 +52,49 @@ public class SnackFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
+
         }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_snack, container, false);
+        final View view = inflater.inflate(R.layout.fragment_snack, container, false);
+
+        Button snackButton = view.findViewById(R.id.ButtonSnack);
+        snackButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){
+                if(mListener != null){
+                    mListener.OnSnackClicked();
+                }
+            }
+        });
+        return view;
+    }
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        if (context instanceof SnackFragment.OnFragmentInteractionListener) {
+            mListener = (SnackFragment.OnFragmentInteractionListener) context;
+        } else {
+            throw new RuntimeException(context.toString()
+                    + " must implement OnFragmentInteractionListener");
+        }
+    }
+
+
+    @Override
+    public void onDetach() {
+        super.onDetach();
+        mListener = null;
+    }
+
+
+    public interface OnFragmentInteractionListener {
+        void OnSnackClicked();
     }
 
 }
