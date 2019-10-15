@@ -4,6 +4,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.InfoActivity">
+    tools:context=".activities.InfoActivity"
+    android:background="@drawable/makansnack">
 
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="#CBCFCFCF"
+        android:text="Informasi"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="97dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="44dp"
+        android:background="#C8FF4D85"
+        android:text="Pretzel"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="333dp"
+        android:layout_height="163dp"
+        android:background="#D564CEFF"
+        android:text="Ciri -ciri kue pretzel adalah memiliki tiga simpul, kue yang berasal dari Eropa, memiliki rasa asin sedikit manis, tekstur yang dimiliki lembut, banyak pada musim dingin"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="122dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="76dp"
+        android:background="#CBFFEB3B"
+        android:text="Cheetos"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="359dp"
+        android:layout_height="144dp"
+        android:background="#CD63FA67"
+        android:text="Fakta unik adalah memiliki 22 varian rasa di seluruh dunia, terbuat pada zaman perang dunia ke 2, penemu bernama Frito, segera mendirikan museum berada di New York City"
+        android:textColor="#FA000000"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
 </androidx.constraintlayout.widget.ConstraintLayout>
